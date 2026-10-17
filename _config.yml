@@ -1,0 +1,15 @@
+title: Life Coach Arla
+description: A calm space for reflection, encouragement, and practical next steps.
+url: ""
+baseurl: ""
+lang: en-GB
+markdown: kramdown
+permalink: /:categories/:title/
+collections:
+  resources:
+    output: true
+    permalink: /resources/:name/
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
